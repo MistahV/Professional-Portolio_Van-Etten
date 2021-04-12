@@ -42,7 +42,10 @@ div img {
     box-shadow: var(--colorMain) 4px 4px 15px 2px;
 }
 
-
+section article a {
+    color: var(--colorThi);
+    text-align: center;
+}
 
 /*  Section Class Styles */
 
@@ -70,6 +73,19 @@ div img {
     box-shadow: 2px 2px 11px 1px;
 }
 
+.contact {
+    background-color: var(--colorSec);
+    height: fit-content;
+    width: fit-content;
+    border: solid 4px var(--colorThi);
+    color: var(--colorMain);
+    padding: 1vh 1vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-bottom: 2vh;
+    box-shadow: 2px 2px 11px 1px;
+    float: right;
+}
 
 /* Atomic Class Styles */
 
@@ -79,8 +95,6 @@ div img {
     flex-wrap: wrap;
 }
 
-.bkcol-gr  {background-color:indigo;}
-.sec-ht    {height: fit-content;}
 .sec-wd    {width: 100%;}
 .txt-cen   {text-align: center;}
 .txt-bld   {font-weight: bolder;}
