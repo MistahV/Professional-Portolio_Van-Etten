@@ -8,7 +8,7 @@ Project cards will be updated as they are completed!
 
 
 Screenshot of my Professional Portfolio:
-![](DailyPlannerScreenshot.png)
+![](PortfolioScreenshot.png)
 
 Links:
 https://mistahv.github.io/Professional-Portolio_Van-Etten/ (application)
