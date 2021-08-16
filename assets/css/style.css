@@ -40,13 +40,12 @@ li {
 }
 
 
-
 div img {
     border:solid 5px var(--colorThi);
     box-shadow: var(--colorMain) 4px 4px 15px 2px;
 }
 
-section article a {
+a {
     color: var(--colorThi);
     text-align: center;
 }
