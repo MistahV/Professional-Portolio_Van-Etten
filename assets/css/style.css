@@ -19,23 +19,27 @@ body, h1 {
     margin: 0;
 }
 
-header {
-    text-align: center;
-    padding-top: 2vh;
-    padding-bottom: 2vh;
+nav {
+    padding-top: 1vh;
+    padding-bottom: 1vh;
     color: var(--colorThi);
     background-color: var(--colorMain);
-    height: 7vh;
+    height: fit-content;
     position: sticky;
+    text-align: right;
+    list-style-type: none;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
-div {
-    padding-top: 4vh;
-    padding-bottom: 4vh;
-    height: 55vh;
-    display: flex;
-    justify-content: center;
+
+li {
+    display: inline;
+    padding-right: 1rem;
+    padding-left: 1rem;
 }
+
+
 
 div img {
     border:solid 5px var(--colorThi);
@@ -47,7 +51,29 @@ section article a {
     text-align: center;
 }
 
+
+.proPic {
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+    height: 55vh;
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    color: var(--colorThi);
+    font-size: large;
+    font-weight: bolder;
+    float:left;
+}
+
+
+
+
 /*  Section Class Styles */
+
+
+
 
 .sample {
     background-color: var(--colorMain);
@@ -87,14 +113,3 @@ section article a {
     float: right;
 }
 
-/* Atomic Class Styles */
-
-.flex {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.sec-wd    {width: 100%;}
-.txt-cen   {text-align: center;}
-.txt-bld   {font-weight: bolder;}
